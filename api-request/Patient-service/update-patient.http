@@ -1,5 +1,6 @@
 ### PUT request to Update patient by id
-PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+PUT http://lb-91c6babe.elb.localhost.localstack.cloud:4004/api/patients/a64d9a3a-22c5-4ff6-9036-3a5322652578
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {

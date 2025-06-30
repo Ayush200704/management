@@ -1,4 +1,4 @@
 ### DELETE request
-DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
-
+DELETE http://lb-91c6babe.elb.localhost.localstack.cloud:4004/api/patients/7e29b1c8-a51c-44a7-b71f-779621abb66a
+Authorization: Bearer {{token}}
 ###
